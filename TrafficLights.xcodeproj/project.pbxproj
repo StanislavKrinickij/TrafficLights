@@ -56,15 +56,47 @@
 		BDDBABAF2388642F00A9820B /* TrafficLights */ = {
 			isa = PBXGroup;
 			children = (
-				BDDBABB02388642F00A9820B /* AppDelegate.swift */,
-				BDDBABB22388642F00A9820B /* SceneDelegate.swift */,
-				BDDBABB42388642F00A9820B /* ViewController.swift */,
-				BDDBABB62388642F00A9820B /* Main.storyboard */,
-				BDDBABB92388643000A9820B /* Assets.xcassets */,
-				BDDBABBB2388643000A9820B /* LaunchScreen.storyboard */,
-				BDDBABBE2388643000A9820B /* Info.plist */,
+				BDDBABC5238864DF00A9820B /* SupportingFiles */,
+				BDDBABC42388649C00A9820B /* ViewController */,
+				BDDBABC62388668200A9820B /* Storyboards */,
+				BDDBABC72388669800A9820B /* Resources */,
 			);
 			path = TrafficLights;
+			sourceTree = "<group>";
+		};
+		BDDBABC42388649C00A9820B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BDDBABB42388642F00A9820B /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BDDBABC5238864DF00A9820B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BDDBABB02388642F00A9820B /* AppDelegate.swift */,
+				BDDBABB22388642F00A9820B /* SceneDelegate.swift */,
+				BDDBABBE2388643000A9820B /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		BDDBABC62388668200A9820B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BDDBABB62388642F00A9820B /* Main.storyboard */,
+				BDDBABBB2388643000A9820B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BDDBABC72388669800A9820B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BDDBABB92388643000A9820B /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28495JNFQ5;
-				INFOPLIST_FILE = TrafficLights/Info.plist;
+				INFOPLIST_FILE = TrafficLights/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.SwiftBook.TrafficLights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28495JNFQ5;
-				INFOPLIST_FILE = TrafficLights/Info.plist;
+				INFOPLIST_FILE = TrafficLights/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +344,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.SwiftBook.TrafficLights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
